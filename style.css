@@ -209,3 +209,7 @@ body {
         transform: translateY(0);
     }
 }
+.dark-mode {
+    background: #121212;
+    color: white;
+}
