@@ -2,74 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BSCS Resource Hub</title>
+    <title>BSCS Department Resource and Information Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-            <h2>BSCS Resource Hub</h2>
-        </div>
-
-        <nav class="nav-links">
-            <a href="#">Announcements</a>
-            <a href="#">Resources</a>
-            <a href="#">Forms</a>
-            <a href="#">Faculty</a>
-            <a href="#">Archive</a>
-            <button class="login-btn">Faculty Login</button>
-            <button id="darkModeBtn">🌙</button>
-        </nav>
+    <header>
+        <img src="bscs-logo.png" alt="BSCS Logo" class="logo">
+        <h1>WEB-BASED BSCS DEPARTMENT RESOURCE AND INFORMATION HUB</h1>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <h1>
-            WEB-BASED BSCS <br>
-            DEPARTMENT RESOURCE <br>
-            AND INFORMATION HUB
-        </h1>
+    <nav>
+        <a href="#announcements">Announcements</a>
+        <a href="#resources">Resources</a>
+        <a href="#forms">Downloadable Forms</a>
+        <a href="#faculty">Faculty Directory</a>
+        <a href="#capstone">Capstone Archive</a>
+        <a href="https://www.facebook.com/" target="_blank">ICCBI Computer Society FB</a>
+    </nav>
 
-        <p>
-            Empowering computer science students with essential resources,
-            announcements, and tools.
-        </p>
+    <section id="announcements">
+        <h2>📢 Announcements</h2>
+        <div class="card">
+            <p><strong>Uploaded by:</strong> Ma'am Erlie Alday</p>
+            <p>
+            Good afternoon po, permission to announce po.<br><br>
 
-        <div class="hero-buttons">
-            <button class="primary-btn">Explore Resources</button>
-            <button class="secondary-btn">Latest Announcements</button>
+            This coming Friday, February 27, 2026, we are inviting all First and Second Year college students to attend a seminar sponsored by Scholastic Philippines.<br><br>
+
+            The seminar will start at 7:30 a.m. at the AC Hall. Kindly ask the students to bring paper and a pen for note-taking.<br><br>
+
+            Thank you po for the support.<br>
+            Attendance is a must.
+            </p>
         </div>
+        <p class="note">Only authorized faculty members and department administrators can upload announcements.</p>
     </section>
 
-    <!-- ANNOUNCEMENTS -->
-    <section class="announcements">
-        <div class="section-header">
-            <h2>Announcements</h2>
-            <button class="upload-btn">Upload (Faculty Only)</button>
-        </div>
-
-        <div class="cards">
-            <div class="card">
-                <h3>Seminar Invitation</h3>
-                <p class="posted">Posted by Ma'am Erlie Alday</p>
-                <div class="card-content">
-                    <p>Good afternoon po, permission to announce po.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Midterm Examination Schedule</h3>
-                <p class="posted">Posted by Dept. Head</p>
-                <div class="card-content">
-                    <p>Please be guided that the midterm examinations will be held next week.</p>
-                </div>
-            </div>
-        </div>
+    <section id="resources">
+        <h2>💻 Programming Resources</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/" target="_blank">HTML, CSS & JavaScript - W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org/" target="_blank">JavaScript Documentation - MDN</a></li>
+            <li><a href="https://www.learncpp.com/" target="_blank">C++ Programming</a></li>
+            <li><a href="https://www.python.org/" target="_blank">Python Official Website</a></li>
+            <li><a href="https://www.geeksforgeeks.org/" target="_blank">Data Structures - GeeksforGeeks</a></li>
+        </ul>
     </section>
-<script src="script.js"></script>
+
+    <section id="forms">
+        <h2>📄 Downloadable Forms</h2>
+        <ul>
+            <li><a href="files/clearance-form.pdf" download>Download Clearance Form</a></li>
+            <li><a href="files/ojt-form.pdf" download>Download OJT Form</a></li>
+            <li><a href="files/capstone-proposal.docx" download>Download Capstone Proposal Template</a></li>
+        </ul>
+    </section>
+
+    <section id="faculty">
+        <h2>👩‍🏫 Faculty Directory</h2>
+        <ul>
+            <li>Ma'am Erlie Alday – BSCS Department Head</li>
+            <li>Prof. Juan Dela Cruz – Programming Instructor</li>
+            <li>Prof. Maria Santos – Database Instructor</li>
+        </ul>
+    </section>
+
+    <section id="capstone">
+        <h2>📚 Capstone Archive</h2>
+        <ul>
+            <li><a href="files/capstone1.pdf" download>Online Enrollment System (2024)</a></li>
+            <li><a href="files/capstone2.pdf" download>Library Management System (2023)</a></li>
+            <li><a href="files/capstone3.pdf" download>Web-Based Attendance System (2022)</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2026 BSCS Department | ICCBI Computer Society</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
